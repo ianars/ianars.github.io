@@ -1,18 +1,58 @@
 body {
-  background-image: url("images/ladrillo.jpg");
+  background-image: url("images/red-brick1.jpg");
   top: 30%;
-  left: 30%;
-  min-width: 100%;
-  min-height: 100%;
-  font-family: 'Roboto', serif;
-  font-size: 20px;
+  right: 30%;
+  min-width: 80%;
+  min-height: 80%;
+  font-family: '<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">', serif;
+  font-size: 22px;
 }
 
 img {
   display: block;
   margin: 0 auto;
 }
-h2 {
+
+h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  font-style: normal;
   text-align: center;
-  color:#999999
+  color: #f4d03f;
+
+}
+h2{
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #f4d03f;
+  font-size: 20px;
+  background-color: #000000;
+}
+h3{
+
+}
+
+
+h4{
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #5499c7;
+}
+
+p{
+  font-size:18px;
+  text-align: center;
+  color:#f1948a;
+  background-color: #000000;
+}
+
+a{
+  text-decoration: none;
+}
+
+.one{
+  list-style: circle;
 }
