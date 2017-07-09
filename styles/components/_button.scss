@@ -1,0 +1,48 @@
+.btncolor-div{
+background-color: $primary-color;
+border-radius: 8px;
+// height: 8vh;
+padding: 24px;
+width: 150px;
+margin-left: 80%;
+margin-top: 3%;
+}
+.burguerBtn {
+width: 80px;
+height: 70px;
+transform: rotate(0deg);
+transition: .5s ease-in-out;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 18px;
+}
+.burguerBtn span{
+display: block;
+position: absolute;
+height: 14%;
+width: 80%;
+background-color: $background-color;
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+}
+.burguerBtn span:nth-child(1){
+top: 0;
+}
+.burguerBtn span:nth-child(2){
+top: 41.75%;
+}
+.burguerBtn span:nth-child(3){
+bottom: 0;
+}
+.burguerBtn.open span:nth-child(1){
+top: 33%;
+transform: rotate(135deg);
+}
+.burguerBtn.open span:nth-child(2){
+opacity: 0;
+left: -60px;
+}
+.burguerBtn.open span:nth-child(3){
+bottom: 33%;
+transform: rotate(-135deg);
+}

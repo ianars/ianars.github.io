@@ -1,0 +1,32 @@
+.nav{
+width: 100%;
+}
+.nav-mobile{
+display: none;
+}
+.listShow{
+display: block;
+position: fixed;
+right: 0px;
+background-color: rgba(148, 193, 180, 0.6);
+z-index: 50;
+margin: 0;
+color: $background-color;
+width: 100%;
+animation: fall-down 1s;
+top: 12.5%;
+font-size: 3em;
+}
+@keyframes fall-down {
+0% { transform: translateY(-100%); }
+100% { transform: translateY(0); }
+}
+.nav li{
+border-bottom: 2px solid rgba(255, 244, 244, 0.8);
+padding: 15px;
+list-style: none;
+}
+.nav-desktop{
+align-items: center;
+display: none;
+}
