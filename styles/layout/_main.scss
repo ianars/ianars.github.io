@@ -1,0 +1,19 @@
+.hr-top{
+border: 5px solid $hr-border-color;
+border-radius: $hr-border-radius ;
+width:95%;
+}
+.hr-bottom{
+border: 5px solid $hr-border-color;
+border-radius: $hr-border-radius ;
+width:95%;
+}
+.pharagraph{
+margin-top: 15%;
+}
+strong{
+color: $secondary-color;
+}
+.experience li{
+list-style: none;
+}
