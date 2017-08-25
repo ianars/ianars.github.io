@@ -3,24 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>Iana Rs</title>
   </head>
-  <body>
+<body>
 <header class="nav">
-<div class="red-background"></div>
+<div class="first-background"></div>
   <ul class="nav-mobile" id="btn-navShow">
-    <li <a href="#">ABOUT</a></li>
-    <li <a href="#">Experiencia</a></li>
-    <li <a href="#">Proyectos</a></li>
-    <li <a href="#">Eventos</a></li>
-    <li <a href="#">Contacto</a></li>
+    <li><a href="#about-mi">Sobre mi</a></li>
+    <li><a href="#experience">Conocimientos Técnicos</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#events">Eventos</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ul>
   <ul class="nav-desktop">
-    <li <a href="#">About</a></li>
-    <li <a href="#">Experiencia</a></li>
-    <li <a href="#">Proyectos</a></li>
-    <li <a href="#">Eventos</a></li>
-    <li <a href="#">Contacto</a></li>
+    <li><a href="#about-mi">Sobre mi</a></li>
+    <li><a href="#experience">Conocimientos Técnicos</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#events">Eventos</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ul>
   <div class="btncolor-div">
   <div id="btn-bigMac" class="burguerBtn">
@@ -35,10 +39,12 @@
     I LOVE CREATING SPACES</p>
   </div>
 </header>
-<main>
-<div class="content">
+<main class="all-content">
+  <div id="about-mi" >
+    </div>
+<div class="content aboutme">
     <hr/ class="hr-top">
-    <h1 class="title">ABOUT</h1>
+    <h1 class="title">SOBRE MI</h1>
     <hr/ class="hr-bottom">
 <p class="pharagraph">
   <strong>Mi pasión:</strong> los idiomas y las nuevas tecnologías, descubrir nuevos horizontes y expandir mis conocimientos.
@@ -50,6 +56,8 @@
 <strong>Mi visión:</strong> marcar huellas allá donde voy, luchar proyecto tras proyecto, desarollar mis ideas y aplicarlas. Apasionada del mundo IT, trabajadora incansable, comprometida con la responsabilidad y la creatividad, y gran seguidora de los nuevos retos.
 </p>
 </div>
+<div id="experience" >
+  </div>
 <div class="content experience">
   <hr/ class="hr-top">
   <h2 class="title">CONOCIMIENTOS TÉCNICOS</h2>
@@ -78,17 +86,74 @@
   <li>Comunicación efectiva</li>
 </ul>
 </div>
+<div id="skills" >
+  </div>
+<div class="content skills">
+  <hr/ class="hr-top">
+  <h2 class="title">SKILLS</h2>
+  <hr/ class="hr-bottom">
+
+<p><strong class="title-skills">HTML</strong></p>
+<div class="skills-container">
+  <div class="skills html text-color">90%</div>
+</div>
+
+<p><strong class="title-skills">CSS</strong></p>
+<div class="skills-container">
+  <div class="skills css text-color">90%</div>
+</div>
+
+<p><strong class="title-skills">JAVASCRIPT</strong></p>
+<div class="skills-container">
+  <div class="skills js text-color">70%</div>
+</div>
+
+<p><strong class="title-skills">GIT</strong></p>
+<div class="skills-container">
+  <div class="skills git text-color">70%</div>
+</div>
+
+<p><strong class="title-skills">SASS</strong></p>
+<div class="skills-container">
+  <div class="skills sass text-color">70%</div>
+</div>
+</div>
+<div id="projects" >
+  </div>
 <div class="content projects">
   <hr/ class="hr-top">
   <h2 class="title">PROYECTOS</h2>
   <hr/ class="hr-bottom">
-<p class="pharagraph">
-<img class="img-project" src="images/woodheart.jpeg" alt="">
-<img class="img-project" src="images/woodheart.jpeg" alt="">
-<img class="img-project" src="images/woodheart.jpeg" alt="">
-<img class="img-project" src="images/woodheart.jpeg" alt="">
-</p>
+
+  <div class="container-project">
+    <div class="div-img-project" >
+      <img class="img-project" src="images/adalovers.png" title="Foto Adalovers" alt="Foto Adalovers">
+      <div class="text-project"> Primera web del equipo <br> Adalovers, en Adalab.<br>
+       <a href="https://adalab.github.io/web_adalovers/"><img class="arrow"src="images/arrows.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-project">
+    <div class="div-img-project" >
+      <img class="img-project" src="images/desconectados.png" title="Foto Desconectados" alt="Foto Desconectados">
+      <div class="text-project">Web para el grupo de periodistas de datos de Medialab Prado.<br>
+        <a href="https://adalab.github.io/Ninjas-in-Pyjamas/"><img class="arrow"src="images/arrows.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-project">
+    <div class="div-img-project" >
+      <img class="img-project" src="images/lasonrisafelina.png" title="Foto Desconectados" alt="Foto Desconectados">
+      <div class="text-project">Proyecto en colaboración con CODESAI, para "La Sonrisa Felina".<br>
+      <a href="https://adalab.github.io/laSonrisaFelina/"><img class="arrow"src="images/arrows.svg" alt=""></a>
+      </div>
+
+    </div>
+  </div>
+
 </div>
+<div id="events" >
+  </div>
 <div class="content eventos">
   <hr/ class="hr-top">
   <h2 class="title">EVENTOS</h2>
@@ -97,17 +162,19 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 </div>
+<div id="contact" >
+  </div>
 <footer class="contact">
-  <h2 class="contact-title">- CONTACT -</h2>
+  <h2 class="contact-title">- CONTACTO -</h2>
 <ul>
  <li>iana.rusu.it@gmail.com</li>
  <li>666624475</li>
 </ul>
-<!-- <ul  class="social"> -->
- <a href="#"><img class="soc-icon"src="images/github-white.svg" alt=""></a>
- <a href="#"><img class="soc-icon"src="images/linkedin-white.svg" alt=""></a>
- <a href="#"><img class="soc-icon"src="images/twitter-white.svg" alt=""></a>
- <!-- </ul>  -->
+<ul  class="social-icon-div">
+ <a href="#"><img class="social-icon"src="images/github-white.svg" alt=""></a>
+ <a href="#"><img class="social-icon"src="images/linkedin-white.svg" alt=""></a>
+ <a href="#"><img class="social-icon"src="images/twitter-white.svg" alt=""></a>
+ </ul>
 
 </footer>
 </main>

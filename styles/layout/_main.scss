@@ -1,19 +1,64 @@
 .hr-top{
-border: 5px solid $hr-border-color;
-border-radius: $hr-border-radius ;
-width:95%;
+  border: 2px solid $hr-border-color;
+  border-radius: $hr-border-radius ;
+  width: 100%;
+  margin-top: 10%;
 }
 .hr-bottom{
-border: 5px solid $hr-border-color;
-border-radius: $hr-border-radius ;
-width:95%;
+  border: 2px solid $hr-border-color;
+  border-radius: $hr-border-radius ;
+  width: 100%;
+  margin-bottom: 15%;
 }
 .pharagraph{
-margin-top: 15%;
+  margin-top: 15%;
 }
 strong{
-color: $secondary-color;
+  color: $secondary-color;
 }
 .experience li{
-list-style: none;
+  list-style: none;
+}
+.skills-container {
+  border-radius: 2px;
+  width: 85%;
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills {
+  border-radius: 2px;
+  text-align: right;
+  line-height: 30px;
+}
+.skills p{
+ color: $secondary-color;
+ margin-left: 5%;
+ margin-bottom: 0;
+ text-align: justify;
+}
+.text-color{
+  color: white;
+}
+
+.html {
+ width: 90%;
+ background-color: #c8d35a;
+}
+.css {
+ width: 90%;
+ background-color: #86bfc7;
+}
+.js {
+ width: 70%;
+ background-color: $secondary-color;
+}
+.git{
+width: 70%;
+background-color: $primary-color;
+}
+.sass {
+ width: 70%;
+ background-color: #f6bb64;
 }
