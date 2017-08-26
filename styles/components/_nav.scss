@@ -6,14 +6,15 @@
 }
 .listShow{
   display: block;
-  position: fixed;
+  // position: fixed;
+  position: absolute;
   right: 0px;
   background-color: rgba(148, 193, 180, 0.9);
   z-index: 5;
   color: $background-color;
   width: 100%;
   animation: fall-down 1s;
-  top: 11.5%;
+  top: 12.5%;
   font-size: 1.2em;
   padding: 10px;
 }
@@ -35,4 +36,24 @@
 .nav-desktop{
   align-items: center;
   display: none;
+}
+
+@media (min-width: $size-media-query-tablet) {
+  .nav-desktop{
+  background-color: rgba(81, 137, 127, 0.6);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -15%;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+}
+  .nav li {
+  border-bottom: none;
+  list-style: none;
+}
+.nav li a:hover {
+  color:  rgb(181, 224, 216);
+}
 }

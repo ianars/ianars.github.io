@@ -1,3 +1,17 @@
+.content{
+  background-color: $background-color;
+  border-radius: 4px;
+  font-size: 0.9em;
+  height: auto;
+  letter-spacing: 1px;
+  line-height: 2em;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 20px 20px 33px 20px;
+  text-align: justify;
+  width: 95%;
+}
 .hr-top{
   border: 2px solid $hr-border-color;
   border-radius: $hr-border-radius ;
@@ -19,46 +33,76 @@ strong{
 .experience li{
   list-style: none;
 }
-.skills-container {
-  border-radius: 2px;
-  width: 85%;
-  background-color: #ddd;
-  margin-left: auto;
-  margin-right: auto;
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	transition:0.4s linear;
+	transition-property: width, background-color;
 }
 
-.skills {
-  border-radius: 2px;
-  text-align: right;
-  line-height: 30px;
-}
-.skills p{
- color: $secondary-color;
- margin-left: 5%;
- margin-bottom: 0;
- text-align: justify;
-}
-.text-color{
-  color: white;
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:4px;
 }
 
-.html {
- width: 90%;
- background-color: #c8d35a;
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
 }
-.css {
- width: 90%;
- background-color: #86bfc7;
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
 }
-.js {
- width: 70%;
- background-color: $secondary-color;
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
 }
-.git{
-width: 70%;
-background-color: $primary-color;
+
+@media (min-width: $size-media-query-tablet) {
+.content{
+  border-radius: 0;
+  width: 100%;
+  }
+.hr-top{
+  width: 60%;
+  margin-top: 4%;
 }
-.sass {
- width: 70%;
- background-color: #f6bb64;
+.hr-bottom{
+  width: 60%;
+  margin-bottom: -7%;
+}
+.skills .hr-bottom{
+  margin-bottom: 9%;
+}
+.projects .hr-bottom{
+  margin-bottom: 13%;
+}
 }

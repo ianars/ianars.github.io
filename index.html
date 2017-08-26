@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
     <title>Iana Rs</title>
   </head>
 <body>
@@ -19,11 +21,11 @@
     <li><a href="#contact">Contacto</a></li>
   </ul>
   <ul class="nav-desktop">
-    <li><a href="#about-mi">Sobre mi</a></li>
-    <li><a href="#experience">Conocimientos Técnicos</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Proyectos</a></li>
-    <li><a href="#events">Eventos</a></li>
+    <li><a href="#about-mi">Sobre mi</a></li>|
+    <li><a href="#experience">Conocimientos Técnicos</a></li>|
+    <li><a href="#skills">Skills</a></li>|
+    <li><a href="#projects">Proyectos</a></li>|
+    <li><a href="#events">Eventos</a></li>|
     <li><a href="#contact">Contacto</a></li>
   </ul>
   <div class="btncolor-div">
@@ -93,29 +95,31 @@
   <h2 class="title">SKILLS</h2>
   <hr/ class="hr-bottom">
 
-<p><strong class="title-skills">HTML</strong></p>
-<div class="skills-container">
-  <div class="skills html text-color">90%</div>
-</div>
 
-<p><strong class="title-skills">CSS</strong></p>
-<div class="skills-container">
-  <div class="skills css text-color">90%</div>
+<div class="skillbar clearfix " data-percent="89%">
+  <div class="skillbar-title" style="background: rgb(211, 221, 109);"><span>HTML5</span></div>
+	<div class="skillbar-bar" style="background: rgb(211, 221, 109);"></div>
+	<div class="skill-bar-percent">90%</div>
 </div>
-
-<p><strong class="title-skills">JAVASCRIPT</strong></p>
-<div class="skills-container">
-  <div class="skills js text-color">70%</div>
+<div class="skillbar clearfix " data-percent="89%">
+	<div class="skillbar-title" style="background: #86bfc7;"><span>CSS</span></div>
+	<div class="skillbar-bar" style="background: #86bfc7;"></div>
+	<div class="skill-bar-percent">90%</div>
 </div>
-
-<p><strong class="title-skills">GIT</strong></p>
-<div class="skills-container">
-  <div class="skills git text-color">70%</div>
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: rgb(238,130,129);"><span>JavaScript</span></div>
+	<div class="skillbar-bar" style="background: rgb(238,130,129);"></div>
+	<div class="skill-bar-percent">70%</div>
 </div>
-
-<p><strong class="title-skills">SASS</strong></p>
-<div class="skills-container">
-  <div class="skills sass text-color">70%</div>
+<div class="skillbar clearfix " data-percent="70%">
+	<div class="skillbar-title" style="background: rgb(81,137,127);"><span>Git</span></div>
+	<div class="skillbar-bar" style="background: rgb(81,137,127);"></div>
+	<div class="skill-bar-percent">70%</div>
+</div>
+<div class="skillbar clearfix " data-percent="80%">
+	<div class="skillbar-title" style="background: #f6bb64;"><span>SASS</span></div>
+	<div class="skillbar-bar" style="background: #f6bb64;"></div>
+	<div class="skill-bar-percent">80%</div>
 </div>
 </div>
 <div id="projects" >
@@ -124,7 +128,7 @@
   <hr/ class="hr-top">
   <h2 class="title">PROYECTOS</h2>
   <hr/ class="hr-bottom">
-
+<div class="all-project-images">
   <div class="container-project">
     <div class="div-img-project" >
       <img class="img-project" src="images/adalovers.png" title="Foto Adalovers" alt="Foto Adalovers">
@@ -147,14 +151,14 @@
       <div class="text-project">Proyecto en colaboración con CODESAI, para "La Sonrisa Felina".<br>
       <a href="https://adalab.github.io/laSonrisaFelina/"><img class="arrow"src="images/arrows.svg" alt=""></a>
       </div>
-
+    </div>
     </div>
   </div>
 
 </div>
 <div id="events" >
   </div>
-<div class="content eventos">
+<div class="content events">
   <hr/ class="hr-top">
   <h2 class="title">EVENTOS</h2>
   <hr/ class="hr-bottom">

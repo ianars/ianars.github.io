@@ -1,13 +1,13 @@
 .container-img{
-  width: 94%;
+  width: 82%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
 }
 .image{
-  border-radius: 600px;
-  width: 90vw;
-  height: 90vw;
+  border-radius: 50%;
+  width: 80vw;
+  height: 80vw;
 }
 
 .transition {
@@ -64,10 +64,19 @@
   width: 12px;
 }
 @media (min-width: $size-media-query-tablet) {
-.image{
-  width: 70vw;
-  height: 70vw;
-  margin-left: 15%;
+.container-img{
+  margin-top: 20%;
 }
-
+.image{
+  width: 55vw;
+  height: 55vw;
+  margin-left: 20%;
+}
+.div-img-project .img-project {
+  width: 25vw;
+  height: 25vw;
+}
+.all-project-images{
+  display: flex;
+}
 }
