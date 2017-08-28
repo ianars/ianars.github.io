@@ -1,12 +1,15 @@
 .title-photo{
   color: $secondary-color;
+  font-weight: bold;
   font-size: 5.9vw;
   width: 100%;
   position: absolute;
   text-align: center;
-  top: 74vw;
+  top: 92vw;
   right: 0;
+  transform: translate(0%, -50%);
 }
+
 .title{
   color: $secondary-color;
   font-size: 1.6em;
@@ -14,22 +17,37 @@
   text-align: center;
   margin: 0;
 }
+.project-title{
+  margin-left: 60%;
+  margin-top: -44%;
+  margin-bottom: 13%;
+  text-align: center;
 
-.contact-title{
-  color: $background-color;
-  font-size: 1.6em;
-  padding-top: 5%;
 }
+.project-title3{
+  margin-left: 60%;
+  margin-top: -44%;
+  text-align: center;
+}
+
 .contact li{
   font-size: 1em;
   list-style: none;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 
 @media (min-width: $size-media-query-tablet) {
 .title-photo {
   font-size: 4.1vw;
-  top: 50vw;
-  padding-left: 55px;
+  top: 62vw;
+  right: 15%;
+}
+.project-title{
+  margin-top: -33%;
+}
+.project-title3{
+  margin-top: -33%;
 }
 }

@@ -1,0 +1,35 @@
+.container-project {
+  width: 200px;
+  height: 200px;
+  // position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img-project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img-project .img-project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: translate(0px, 0px) scale(1);
+  transition: all 0s ease 0s;
+  transition: all 500ms ease-in-out;
+}
+.div-img-project .text-project {
+  // position: absolute;
+  // z-index: -1;
+  display: block;
+  height: 50%;
+  top: 70%;
+  right: 0;
+  padding-right: 5px;
+}
+.div-img-project:hover .img-project {
+  transform: translate(-50px, -50px) scale(0.5);
+}

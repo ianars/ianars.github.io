@@ -3,9 +3,22 @@
   width: 100%;
   height: 3vh;
 }
-
+.social-icon-div-header{
+ display: flex;
+ justify-content: center;
+ padding: 0;
+}
+.social-icon-header {
+  width: 45px;
+  padding: 10px;
+}
 @media (min-width: $size-media-query-tablet) {
 .first-background{
   display: none;
+}
+.social-icon-div-header{
+  flex-direction: column;
+  margin-left: 125%;
+  margin-top: -56%;
 }
 }
