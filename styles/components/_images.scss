@@ -86,3 +86,16 @@
   margin-top: 14%;
 }
 }
+@media (min-width: $size-media-query-desktop) {
+.container-img{
+  margin-top: 20%;
+}
+.image{
+  width: 32vw;
+  height: 32vw;
+  margin-top: -7%;
+  }
+.container-project {
+    width: 70%;
+  }
+}

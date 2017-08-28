@@ -22,3 +22,10 @@
   margin-top: -56%;
 }
 }
+
+@media (min-width: $size-media-query-desktop) {
+.social-icon-div-header{
+  margin-top: -36%;
+  margin-left: 110%;
+}
+ }

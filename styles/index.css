@@ -45,6 +45,11 @@
 
   .project-title3 {
     margin-top: -33%; } }
+@media (min-width: 1024px) {
+  .title-photo {
+    font-size: 2.8vw;
+    top: 60vw;
+    right: 0%; } }
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -208,6 +213,17 @@ body {
   .text-project3 {
     margin-left: 19%;
     margin-top: 14%; } }
+@media (min-width: 1024px) {
+  .container-img {
+    margin-top: 20%; }
+
+  .image {
+    width: 32vw;
+    height: 32vw;
+    margin-top: -7%; }
+
+  .container-project {
+    width: 70%; } }
 .nav {
   width: 100%; }
 
@@ -281,6 +297,9 @@ body {
 
   .nav li a:hover {
     color: #b5e0d8; } }
+@media (min-width: 1024px) {
+  .nav-desktop {
+    height: 11vh; } }
 .first-background {
   background-color: #51897f;
   width: 100%;
@@ -310,6 +329,10 @@ body {
             flex-direction: column;
     margin-left: 125%;
     margin-top: -56%; } }
+@media (min-width: 1024px) {
+  .social-icon-div-header {
+    margin-top: -36%;
+    margin-left: 110%; } }
 .contact {
   background-color: #51897f;
   color: #fcfbf7;

@@ -58,3 +58,8 @@
   color:  rgb(181, 224, 216);
 }
 }
+@media (min-width: $size-media-query-desktop) {
+  .nav-desktop{
+    height: 11vh;
+  }
+}
