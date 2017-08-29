@@ -54,8 +54,10 @@
 
 @media (min-width: $size-media-query-desktop) {
 .title-photo {
-    font-size: 2.8vw;
-    top: 55vw;
-    right: 0%;
+  font-size: 2.8vw;
+  right: 0%;
+}
+.title{
+  font-size: 2em;
 }
 }

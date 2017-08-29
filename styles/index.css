@@ -48,8 +48,10 @@
 @media (min-width: 1024px) {
   .title-photo {
     font-size: 2.8vw;
-    top: 55vw;
-    right: 0%; } }
+    right: 0%; }
+
+  .title {
+    font-size: 2em; } }
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -220,10 +222,11 @@ body {
   .image {
     width: 32vw;
     height: 32vw;
-    margin-top: -7%; }
+    margin-top: -7%;
+    margin-left: 8%; }
 
   .container-project {
-    width: 70%; }
+    width: 65%; }
 
   .div-img-project {
     margin-bottom: 20%; } }
@@ -289,10 +292,11 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-top: -15%;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 10vh;
-    z-index: 101; }
+    z-index: 101;
+    padding: 0; }
 
   .nav li {
     border-bottom: none;
@@ -302,7 +306,11 @@ body {
     color: #b5e0d8; } }
 @media (min-width: 1024px) {
   .nav-desktop {
-    height: 11vh; } }
+    height: 11vh; }
+
+  .nav li a {
+    font-weight: bold;
+    font-size: 1.2em; } }
 .first-background {
   background-color: #51897f;
   width: 100%;
@@ -318,7 +326,7 @@ body {
   padding: 0; }
 
 .social-icon-header {
-  width: 50px;
+  width: 55px;
   padding: 10px; }
 
 @media (min-width: 768px) {
@@ -349,7 +357,7 @@ body {
   padding: 0; }
 
 .social-icon {
-  width: 42px;
+  width: 50px;
   padding: 10px; }
 
 .social-icon-div {
@@ -443,6 +451,41 @@ strong {
   color: #444;
   color: rgba(0, 0, 0, 0.4); }
 
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9); }
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px; }
+
+i {
+  color: #444; }
+
 @media (min-width: 768px) {
   .content {
     border-radius: 0;
@@ -457,9 +500,42 @@ strong {
     margin-bottom: -7%; }
 
   .skills .hr-bottom {
-    margin-bottom: 9%; }
+    margin-bottom: 8%; }
 
   .projects .hr-bottom {
     margin-bottom: 13%; } }
+@media (min-width: 1024px) {
+  .content {
+    margin-top: 25%; }
+
+  .aboutme-div {
+    width: 80%;
+    margin-left: 19%; }
+
+  .c-tecnicos {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+  .skillbar {
+    margin-bottom: 25px; }
+
+  .skillbar-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .projects .hr-bottom {
+    margin-bottom: 10%; }
+
+  .ph {
+    text-align: center;
+    margin-top: 15%; } }
 
 /*# sourceMappingURL=index.css.map */
