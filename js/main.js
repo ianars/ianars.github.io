@@ -35,18 +35,35 @@ jQuery('.skillbar').each(function(){
 });
 
 
-$(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) {
-        $('#return-to-top').fadeIn(200);
+// $(window).scroll(function() {
+//     if ($(this).scrollTop() >= 50) {
+//         $('#return-to-top').fadeIn(200);
+//     } else {
+//         $('#return-to-top').fadeOut(200);
+//     }
+// });
+// $('#return-to-top').click(function() {
+//     $('body,html').animate({
+//         scrollTop : 0
+//     }, 500);
+// });
+
+
+$(document).ready(function() {
+  $('.up-page').click(function() {
+    $('body, html').animate({
+      scrollTop: '0px'
+    }, 1000);
+  });
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.up-page').fadeIn(300);
     } else {
-        $('#return-to-top').fadeOut(200);
+      $('.up-page').fadeOut(300);
     }
-});
-$('#return-to-top').click(function() {
-    $('body,html').animate({
-        scrollTop : 0
-    }, 500);
-});
+  });
+})
 
 $('.hero .content-title .title-div').delay(500).animate({
     'opacity':'1',

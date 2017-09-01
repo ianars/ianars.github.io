@@ -3,7 +3,7 @@
   border-radius: 4px;
   font-size: 0.9em;
   height: auto;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
   line-height: 2em;
   margin-top: 6%;
   margin-bottom: 15%;
@@ -88,50 +88,58 @@ strong{
 	color:#444;
 	color:rgba(0, 0, 0, 0.4);
 }
-
-#return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    border-radius: 35px;
-    display: none;
-    transition: all 0.3s ease;
+//
+// #return-to-top {
+//     position: fixed;
+//     bottom: 20px;
+//     right: 20px;
+//     background: rgb(0, 0, 0);
+//     background: rgba(0, 0, 0, 0.7);
+//     width: 50px;
+//     height: 50px;
+//     display: block;
+//     text-decoration: none;
+//     border-radius: 35px;
+//     display: none;
+//     transition: all 0.3s ease;
+// }
+//
+// #return-to-top i {
+//     color: #fff;
+//     margin: 0;
+//     position: relative;
+//     left: 16px;
+//     top: 13px;
+//     font-size: 19px;
+//     transition: all 0.3s ease;
+// }
+//
+// #return-to-top:hover {
+//     background: rgba(0, 0, 0, 0.9);
+// }
+//
+// #return-to-top:hover i {
+//     color: #fff;
+//     top: 5px;
+// }
+//
+// i{
+//   color: #444;
+// }
+.up-page {
+  width: 40px;
+  position: fixed;
+  display: none;
+  bottom: 24px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 98;
 }
-
-#return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    transition: all 0.3s ease;
-}
-
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-}
-
-i{
-  color: #444;
-}
-
 @media (min-width: $size-media-query-tablet) {
 .content{
   border-radius: 0;
   width: 100%;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 .hr-top{
@@ -158,11 +166,16 @@ i{
 .experience .hr-bottom{
   margin-bottom: 7%;
 }
+
+.up-page {
+    width: 45px;
+    bottom: 25%;
+  }
 }
 
 @media (min-width: $size-media-query-desktop) {
 .content{
-  margin-top: 20%;
+  margin-top: 12%;
 }
 
 .aboutme-div{
@@ -189,4 +202,9 @@ i{
 .projects .hr-bottom{
   margin-bottom: 4%;
 }
+
+.up-page {
+    width: 50px;
+    bottom: 25%;
+  }
 }
