@@ -6,6 +6,7 @@
   margin-left: 78%;
   margin-top: 7%;
 }
+
 .burguerBtn {
   width: 30px;
   height: 29px;
@@ -14,6 +15,7 @@
   cursor: pointer;
   margin-left: 21px;
 }
+
 .burguerBtn span{
   display: block;
   position: absolute;
@@ -24,30 +26,36 @@
   transform: rotate(0deg);
   transition: .25s ease-in-out;
 }
+
 .burguerBtn span:nth-child(1){
   top: 12px;
 }
+
 .burguerBtn span:nth-child(2){
   top: 21px;
 }
+
 .burguerBtn span:nth-child(3){
   bottom: -4px;
 }
+
 .burguerBtn.open span:nth-child(1){
   top: 63%;
   transform: rotate(135deg);
 }
+
 .burguerBtn.open span:nth-child(2){
   opacity: 0;
   left: -60px;
 }
+
 .burguerBtn.open span:nth-child(3){
   bottom: 23%;
   transform: rotate(-135deg);
 }
+
 @media (min-width: $size-media-query-tablet) {
   .btncolor-div{
     display: none;
 }
-
 }

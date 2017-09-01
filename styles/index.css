@@ -1,16 +1,11 @@
-.title-photo {
-  color: #ee8281;
-  font-weight: bold;
-  font-size: 5.9vw;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  top: 92vw;
-  right: 0;
-  -webkit-transform: translate(0%, -50%);
-          transform: translate(0%, -50%); }
-
 .title {
+  color: #fcfbf7;
+  font-size: 1.7em;
+  text-shadow: 0px 2px 3px #2d2d2d;
+  text-align: center;
+  margin-top: 20%; }
+
+.title-section {
   color: #ee8281;
   font-size: 1.6em;
   width: 100%;
@@ -18,15 +13,16 @@
   margin: 0; }
 
 .project-title {
-  margin-left: 60%;
-  margin-top: -44%;
-  margin-bottom: 13%;
   text-align: center; }
 
-.project-title3 {
-  margin-left: 60%;
-  margin-top: -44%;
+.text-project {
   text-align: center; }
+
+.text-project3 {
+  text-align: center; }
+
+.pharagraph {
+  word-spacing: 2px; }
 
 .contact li {
   font-size: 1em;
@@ -35,23 +31,52 @@
   padding-bottom: 10px; }
 
 @media (min-width: 768px) {
-  .title-photo {
-    font-size: 4.1vw;
-    top: 62vw;
-    right: 15%; }
+  .title {
+    color: #fcfbf7;
+    font-size: 2.5em;
+    text-shadow: 0px 2px 3px #2d2d2d;
+    margin-bottom: -5%; }
 
   .project-title {
-    margin-top: -33%; }
+    margin-top: -38%;
+    margin-left: 64%;
+    margin-bottom: 13%; }
 
   .project-title3 {
-    margin-top: -33%; } }
-@media (min-width: 1024px) {
-  .title-photo {
-    font-size: 2.8vw;
-    right: 0%; }
+    margin-top: -33%; }
 
-  .title {
-    font-size: 2em; } }
+  .text-project {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+    width: 88%;
+    letter-spacing: 0.9px;
+    word-spacing: 0.9px;
+    text-align: center;
+    line-height: 1.8em; }
+
+  .text-project3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+    margin-bottom: 5px;
+    width: 85%;
+    letter-spacing: 0.9px;
+    word-spacing: 0.9px;
+    line-height: 1.8em; } }
+@media (min-width: 1024px) {
+  .title-section {
+    font-size: 2em; }
+
+  .project-title {
+    margin-top: -29%; }
+
+  .project-title3 {
+    margin-top: -29%; }
+
+  .experience p {
+    text-align: center; } }
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -135,51 +160,26 @@ body {
   width: 80vw;
   height: 80vw; }
 
-.transition {
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out; }
-
 .arrow {
-  width: 15px;
-  margin-left: 30px; }
+  width: 22px;
+  margin-top: 2%; }
 
 .container-project {
-  width: 350px;
-  height: 200px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 20px; }
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding-bottom: 10%;
+  padding-top: 2%; }
 
 .div-img-project {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  display: block; }
 
 .div-img-project .img-project {
   border-radius: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  -webkit-transform: translate(0px, 0px) scale(1);
-          transform: translate(0px, 0px) scale(1);
-  -webkit-transition: all 0s ease 0s;
-  transition: all 0s ease 0s;
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out; }
-
-.div-img-project .text-project {
-  display: block;
-  height: 50%;
-  right: 0;
-  margin-left: 11%;
-  width: 80%;
-  letter-spacing: 0.5px; }
-
-.div-img-project:hover .img-project {
-  -webkit-transform: translate(-50px, -50px) scale(0.5);
-          transform: translate(-50px, -50px) scale(0.5); }
+  width: 95%; }
 
 @media (min-width: 768px) {
   .all-project-images {
@@ -193,7 +193,8 @@ body {
 
   .container-project {
     width: 100%;
-    height: auto; }
+    height: auto;
+    padding-bottom: 3%; }
 
   .container-img {
     width: 70%;
@@ -201,20 +202,28 @@ body {
     margin-top: 20%;
     padding-bottom: 20%; }
 
-  .image {
-    width: 60vw;
-    height: 60vw; }
+  .div-img-project .img-project {
+    -webkit-transform: translate(0px, 0px) scale(1);
+            transform: translate(0px, 0px) scale(1);
+    -webkit-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out; }
 
-  .div-img-project .text-project {
-    width: 75%;
-    margin-left: 19%; }
+  .div-img-project:hover .img-project {
+    -webkit-transform: translate(-50px, -50px) scale(0.5);
+            transform: translate(-50px, -50px) scale(0.5); }
+
+  .image {
+    width: 45vw;
+    height: 45vw; }
 
   .div-img-project {
-    margin-bottom: 15%; }
+    width: 75%;
+    margin: 0 auto; }
 
-  .text-project3 {
-    margin-left: 19%;
-    margin-top: 14%; } }
+  .div-img-project {
+    padding: 3%; } }
 @media (min-width: 1024px) {
   .container-img {
     margin-top: 20%; }
@@ -226,10 +235,12 @@ body {
     margin-left: 8%; }
 
   .container-project {
-    width: 65%; }
+    width: 100%;
+    margin: 0; }
 
   .div-img-project {
-    margin-bottom: 20%; } }
+    margin-bottom: 7%;
+    padding: 1%; } }
 .nav {
   width: 100%; }
 
@@ -240,7 +251,7 @@ body {
   display: block;
   position: absolute;
   right: 0px;
-  background-color: rgba(148, 193, 180, 0.9);
+  background-color: rgba(148, 193, 180, 0.8);
   z-index: 5;
   color: #fcfbf7;
   width: 100%;
@@ -267,6 +278,7 @@ body {
             transform: translateY(0); } }
 .nav li {
   border-bottom: 2px solid rgba(255, 244, 244, 0.8);
+  font-weight: bold;
   padding: 10px; }
 
 .nav li:last-child {
@@ -295,7 +307,6 @@ body {
     position: absolute;
     width: 100%;
     height: 10vh;
-    z-index: 101;
     padding: 0; }
 
   .nav li {
@@ -316,6 +327,19 @@ body {
   width: 100%;
   height: 3vh; }
 
+.hero {
+  height: 100%; }
+  .hero .content-title {
+    width: 100%;
+    height: 100%; }
+    .hero .content-title .title-div {
+      top: 55%;
+      width: 100%;
+      -webkit-transform: translate(0%, -50%);
+              transform: translate(0%, -50%);
+      text-align: center;
+      opacity: 0; }
+
 .social-icon-div-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,7 +347,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0; }
+  padding: 0;
+  margin-top: 12%; }
 
 .social-icon-header {
   width: 55px;
@@ -338,8 +363,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 125%;
-    margin-top: -56%; } }
+    margin-left: 122%;
+    margin-top: -48%; } }
 @media (min-width: 1024px) {
   .social-icon-div-header {
     margin-top: -33%;
@@ -374,12 +399,14 @@ body {
   height: auto;
   letter-spacing: 1px;
   line-height: 2em;
-  margin-top: 20%;
+  margin-top: 6%;
+  margin-bottom: 15%;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 20px 33px 20px;
   text-align: justify;
-  width: 95%; }
+  width: 95%;
+  word-spacing: 5px; }
 
 .hr-top {
   border: 2px solid #9abbaa;
@@ -392,9 +419,6 @@ body {
   border-radius: 300px;
   width: 100%;
   margin-bottom: 15%; }
-
-.pharagraph {
-  margin-top: 15%; }
 
 strong {
   color: #ee8281; }
@@ -489,7 +513,8 @@ i {
 @media (min-width: 768px) {
   .content {
     border-radius: 0;
-    width: 100%; }
+    width: 100%;
+    margin-top: 25%; }
 
   .hr-top {
     width: 60%;
@@ -497,31 +522,36 @@ i {
 
   .hr-bottom {
     width: 60%;
-    margin-bottom: -7%; }
-
-  .skills .hr-bottom {
-    margin-bottom: 8%; }
-
-  .projects .hr-bottom {
-    margin-bottom: 13%; } }
-@media (min-width: 1024px) {
-  .content {
-    margin-top: 25%; }
-
-  .aboutme-div {
-    width: 80%;
-    margin-left: 19%; }
+    margin-bottom: 4%; }
 
   .c-tecnicos {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+
+  .aboutme .hr-bottom {
+    margin-bottom: 7%; }
+
+  .skills .hr-bottom {
+    margin-bottom: 7%; }
+
+  .experience .hr-bottom {
+    margin-bottom: 7%; } }
+@media (min-width: 1024px) {
+  .content {
+    margin-top: 20%; }
+
+  .aboutme-div {
+    width: 65%;
+    margin-left: 19%; }
+
+  .c-tecnicos {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
 
   .skillbar {
     margin-bottom: 25px; }
@@ -532,10 +562,6 @@ i {
     margin-right: auto; }
 
   .projects .hr-bottom {
-    margin-bottom: 10%; }
-
-  .ph {
-    text-align: center;
-    margin-top: 15%; } }
+    margin-bottom: 4%; } }
 
 /*# sourceMappingURL=index.css.map */

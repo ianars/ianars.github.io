@@ -1,33 +1,32 @@
-.title-photo{
-  color: $secondary-color;
-  font-weight: bold;
-  font-size: 5.9vw;
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  top: 92vw;
-  right: 0;
-  transform: translate(0%, -50%);
-}
-
 .title{
+  color: $background-color;
+  font-size: 1.7em;
+  text-shadow: 0px 2px 3px #2d2d2d;
+  text-align: center;
+  margin-top: 20%;
+}
+.title-section{
   color: $secondary-color;
   font-size: 1.6em;
   width: 100%;
   text-align: center;
   margin: 0;
 }
-.project-title{
-  margin-left: 60%;
-  margin-top: -44%;
-  margin-bottom: 13%;
-  text-align: center;
 
-}
-.project-title3{
-  margin-left: 60%;
-  margin-top: -44%;
+.project-title{
   text-align: center;
+}
+
+.text-project {
+  text-align: center;
+}
+
+.text-project3{
+  text-align: center;
+}
+
+.pharagraph{
+  word-spacing: 2px;
 }
 
 .contact li{
@@ -37,27 +36,59 @@
   padding-bottom: 10px;
 }
 
-
 @media (min-width: $size-media-query-tablet) {
-.title-photo {
-  font-size: 4.1vw;
-  top: 62vw;
-  right: 15%;
+.title{
+  color: $background-color;
+  font-size: 2.5em;
+  text-shadow: 0px 2px 3px #2d2d2d;
+  margin-bottom: -5%;
 }
+
 .project-title{
-  margin-top: -33%;
+  margin-top: -38%;
+  margin-left: 64%;
+  margin-bottom: 13%;
 }
+
 .project-title3{
   margin-top: -33%;
+}
+
+.text-project {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -4%;
+   width: 88%;
+   letter-spacing: 0.9px;
+   word-spacing: 0.9px;
+   text-align: center;
+   line-height: 1.8em;
+}
+
+.text-project3{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -4%;
+   margin-bottom: 5px;
+   width: 85%;
+   letter-spacing: 0.9px;
+   word-spacing: 0.9px;
+   line-height: 1.8em;
 }
 }
 
 @media (min-width: $size-media-query-desktop) {
-.title-photo {
-  font-size: 2.8vw;
-  right: 0%;
-}
-.title{
+.title-section{
   font-size: 2em;
+}
+.project-title{
+  margin-top: -29%;
+}
+.project-title3{
+  margin-top: -29%;
+}
+.experience p{
+  text-align: center;
 }
 }
