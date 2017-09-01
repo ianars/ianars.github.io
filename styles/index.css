@@ -60,7 +60,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -4%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 85%;
     letter-spacing: 0.9px;
     word-spacing: 0.9px;
@@ -199,7 +199,7 @@ body {
   .container-img {
     width: 70%;
     margin-left: 5%;
-    margin-top: 20%;
+    margin-top: 24%;
     padding-bottom: 20%; }
 
   .div-img-project .img-project {
@@ -303,7 +303,7 @@ body {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-top: -15%;
+    margin-top: -18%;
     position: absolute;
     width: 100%;
     height: 10vh;
@@ -364,7 +364,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-left: 122%;
-    margin-top: -48%; } }
+    margin-top: -50%; } }
 @media (min-width: 1024px) {
   .social-icon-div-header {
     margin-top: -33%;
