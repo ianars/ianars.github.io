@@ -64,10 +64,12 @@
 .nav li a:hover {
   color:  rgb(181, 224, 216);
 }
+
 }
 @media (min-width: $size-media-query-desktop) {
 .nav-desktop{
   height: 11vh;
+  margin-top: -15%;
 }
 .nav li a{
   font-weight: bold;

@@ -34,21 +34,6 @@ jQuery('.skillbar').each(function(){
 	},4000);
 });
 
-
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() >= 50) {
-//         $('#return-to-top').fadeIn(200);
-//     } else {
-//         $('#return-to-top').fadeOut(200);
-//     }
-// });
-// $('#return-to-top').click(function() {
-//     $('body,html').animate({
-//         scrollTop : 0
-//     }, 500);
-// });
-
-
 $(document).ready(function() {
   $('.up-page').click(function() {
     $('body, html').animate({
@@ -69,3 +54,5 @@ $('.hero .content-title .title-div').delay(500).animate({
     'opacity':'1',
     'top': '50%'
   },7000);
+
+  

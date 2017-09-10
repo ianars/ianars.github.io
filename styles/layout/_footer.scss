@@ -25,3 +25,21 @@
 .contact p{
   display: inline;
 }
+
+.contact li{
+  font-size: 1em;
+  list-style: none;
+  font-weight: bold;
+}
+@media (min-width: $size-media-query-desktop) {
+.social-icon-div{
+  padding-top: 30px;
+}
+.social-icon {
+  width: 55px;
+}
+.contact li{
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+}
