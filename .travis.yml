@@ -1,12 +1,7 @@
 language: node_js
 node_js:
   - "7"
-  language: ruby
-rvm:
-  - 2.2
-  - jruby 
-  - 2.0.0-p247
-  install: gem install sass
-  before_install:
+install: gem install sass
+before_install:
   -rvm install 2.1.5
-  script: sass styles/index.scss styles/index.css
+script: sass styles/index.scss styles/index.css
