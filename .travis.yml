@@ -3,5 +3,7 @@ node_js:
   - "7"
 install: gem install sass
 before_install:
-  -rvm install 2.1.5
-script: sass styles/index.scss styles/index.css
+  - rvm install 2.1.5
+script:
+  - sass styles/index.scss styles/index.css
+  - sass styles.scss styles.css
